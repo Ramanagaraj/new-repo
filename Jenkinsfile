@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage("maven build"){
             when{
-                beanch "master"
+                branch "master"
             }
             steps{
               sh 'mvn clean package -DskipTests=true'
