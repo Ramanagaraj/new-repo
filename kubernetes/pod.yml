@@ -10,3 +10,6 @@ spec:
       image: kammana/eks-app:0.0.1
       ports:
         - containerPort: 8080
+
+        test
+        
